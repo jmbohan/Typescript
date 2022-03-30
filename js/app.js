@@ -34,4 +34,7 @@ const logMessage = (message) => console.log(message);
 function logError(err) {
     console.error(err);
 }
+const firstPlayer = new Player();
+firstPlayer.name = 'Lorcan';
+console.log(firstPlayer.formatName());
 //# sourceMappingURL=app.js.map
